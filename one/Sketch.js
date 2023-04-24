@@ -2,6 +2,8 @@ let monster;
 let vader;
 let x, y, rotation;
 
+let monster2;
+
 function preload(){
   //monster = loadImage('data/Monster_300_204.png');  // the exact path for the file, from the sketch.js file
   vader = loadImage('data/legoVader.png');
@@ -15,6 +17,9 @@ function setup() {
   loadImage('data/Monster_300_204.png', m => {
     monster = m; console.log("loaded");
   }, console.log("failed"));
+
+  monster2 = 'ted';
+
 
  
 /*
